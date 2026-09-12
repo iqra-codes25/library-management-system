@@ -17,7 +17,7 @@ import { History } from "./pages/userdashboard/History";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/library-management-system">
       <Routes>
 
         {/* Login */}
