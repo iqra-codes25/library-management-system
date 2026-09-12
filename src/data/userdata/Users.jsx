@@ -48,4 +48,13 @@ export const users = [
     role: "User",
     status: "Active",
   },
+  {
+  id: 0,
+  name: "Admin",
+  email: "admin@gmail.com",
+  password: "admin123",
+  phone: "",
+  role: "Admin",
+  status: "Active",
+},
 ];
