@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+    base: "/library-management-system/",
   server: {
     port: 3000,
     open: true,
